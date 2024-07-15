@@ -2,7 +2,7 @@ import { Progress } from "antd"
 import { useEffect, useState } from "react"
 
 const Languages = () => {
-    const [chinese, setChinese] = useState(0)
+    const [spanish, setSpainish] = useState(0)
     const [english, setEnglish] = useState(0)
 
     useEffect(() => {
@@ -10,13 +10,13 @@ const Languages = () => {
             if (english < 90) {
                 setEnglish(prevCount => prevCount + 1);
             }
-            if (chinese < 88) {
-                setChinese(prevCount => prevCount + 1);
+            if (spanish < 88) {
+                setSpainish(prevCount => prevCount + 1);
             }
         }, 30);
 
         return () => clearInterval(timer);
-    }, [chinese, english])
+    }, [spanish, english])
     return (
         <div className="flex flex-col space-y-1 pt-6">
             <div className="flex flex-col gap-y-4">
@@ -27,8 +27,8 @@ const Languages = () => {
                         <span className='text-xs font-bold text-Snow'>English</span>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-y-2">
-                        <Progress strokeColor="#1fdf64" type="circle" percent={chinese} size={75} />
-                        <span className='text-xs font-bold text-Snow'>Chinese</span>
+                        <Progress strokeColor="#1fdf64" type="circle" percent={spanish} size={75} />
+                        <span className='text-xs font-bold text-Snow'>Spanish</span>
                     </div>
                 </div>
             </div>

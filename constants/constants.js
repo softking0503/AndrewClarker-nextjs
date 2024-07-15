@@ -17,31 +17,30 @@ export const SKILLS = [
     title: 'React Developer',
     level: '91%',
   },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
+  {
+    title: 'NextJS Developer',
+    level: '90%',
+  },
+  {
+    title: 'Tailwind CSS Expert',
+    level: '90%',
+  },
   {
     title: 'Backend Developer',
     level: '70%',
   },
-  // {
-  //   title: 'Technical Blogger',
-  //   level: '83%',
-  // },
 ];
 
 export const TECH_STACK = [
-  'JavaScript',
   'ReactJS',
   'NextJS',
+  'TailwindCSS',
+  'JavaScript',
   'TypeScript',
   'NodeJS',
   'Redux',
-  // 'Zustand',
   'CSS',
   'SCSS',
-  'TailwindCSS',
   'Ant Design',
   'Material UI',
   'Next UI',
@@ -49,10 +48,7 @@ export const TECH_STACK = [
   'MongoDB',
   'MySQL',
   'Git',
-  'GitHub',
-  // 'Jira',
-  // 'Figma',
-  // 'Adobe XD',
+  'GitHub'
 ];
 
 export const CONTACTS = {
@@ -60,7 +56,7 @@ export const CONTACTS = {
   PHONE: '+923159591822',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/andrewclarker',
+  GITHUB: 'https://github.com/AndrewClarker0524',
   LINKEDIN: 'https://www.linkedin.com/in/iandrewclarker/',
   TWITTER: 'https://twitter.com/iandrewclarker',
   FACEBOOK: 'https://www.facebook.com/iandrewclarker',

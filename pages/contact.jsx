@@ -90,7 +90,7 @@ const Contact = () => {
                                     <div id="icon" className="absolute inset-y-0 left-0 flex items-center text-xl pl-3 pointer-events-none">
                                         <HiMail />
                                     </div>
-                                    <input type="text" className="input_stylings" placeholder="Email" onChange={(e) => { setSendEmail(e.target.values) }} />
+                                    <input type="text" className="input_stylings" placeholder="Email" onChange={(e) => { setSendEmail(e.target.value) }} />
                                 </div>
                             </div>
 
