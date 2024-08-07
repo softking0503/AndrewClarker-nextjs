@@ -11,7 +11,7 @@ import { Modal } from 'antd';
 const Contact = () => {
     const [isOpen, setIsOpen] = useState(false)
 
-    const [recipient, setRecipient] = useState('andrewclarker078@gmail.com');
+    const [recipient, setRecipient] = useState('softking0503@gmail.com');
     const [message, setMessage] = useState('');
     const [name, setName] = useState('');
     const [sendEmail, setSendEmail] = useState('');
@@ -49,7 +49,7 @@ const Contact = () => {
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
-                                <span className='text-LightGray text-sm'>AndrewClarker078@gmail.com</span>
+                                <span className='text-LightGray text-sm'>softking0503@gmail.com</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>
@@ -64,9 +64,8 @@ const Contact = () => {
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
                     <a className='hover:scale-125 ease-in-out duration-700' href="" target='_blank' rel="noreferrer"><HiMail /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/andrewclarker" target='_blank' rel="noreferrer"><FaGithub /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/softking0503" target='_blank' rel="noreferrer"><FaGithub /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/andrewclarker/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
-                    {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
                     <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>
                     <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a>
                 </div>

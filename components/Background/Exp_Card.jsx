@@ -25,4 +25,4 @@ const Exp_Card = ({ data }) => {
     )
 }
 
-export default Exp_Card
+export default Exp_Card;

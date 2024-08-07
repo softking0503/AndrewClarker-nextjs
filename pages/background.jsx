@@ -36,7 +36,7 @@ function Background() {
                         <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">Experience</div>
 
                         {isLoading ?
-                            [1, 2, 3].map(() => (
+                            [1, 2, 3, 4].map(() => (
                                 <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
                             ))
                             :

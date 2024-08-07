@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="mr-1 text-base">
                         <MdMail />
                     </div>
-                    <div>AndrewClarker078@gmail.com</div>
+                    <div>softking0503@gmail.com</div>
                 </div>
             </div>
         </div>
