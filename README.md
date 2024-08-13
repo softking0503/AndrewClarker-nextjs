@@ -37,13 +37,13 @@ To run **portfolio** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/AndrewClarker0524/AndrewClarker-nextjs.git
+sudo git clone https://github.com/softking0503/AndrewClarker-nextjs.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/AndrewClarker0524/AndrewClarker-nextjs.git
+git clone https://github.com/softking0503/AndrewClarker-nextjs.git
 ```
 
 ### Contact
